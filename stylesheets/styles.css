@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700|Oleo+Script:bold&effect=shadow-multiple);
+
 html {
   background: #6C7989;
   background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
@@ -12,7 +13,7 @@ html {
 body {
   padding: 50px 0;
   margin: 0;
-  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
@@ -69,28 +70,40 @@ header {
   border-bottom: 1px solid #B2D2E1;
 }
 
-logo {
+.logo {
   font-family: 'Oleo Script', serif;
   text-align: center; 
-  font-size: 42px;    
+  font-size: 82px; 
+  line-height: 1.8;
+  color: #069;    
 }
 
 header h1 {
   margin: 0;
   padding: 0;
-  font-size: 42px;
+  font-size: 62px;
   line-height: 1.2;
   color: #069;
 text-align: center;    
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
 }
+
+header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #069;
+text-align: center;    
+  text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+}
+
 header.without-description h1 {
   margin: 10px 0;
 }
 header p {
   margin: 0;
   color: #61778B;
-  width: 300px;
   font-size: 13px;
 }
 header p.view {
@@ -216,6 +229,10 @@ h1, h2, h3 {
 }
 
 h1 {
+  font-size: 28px;
+}
+
+h3 {
   font-size: 28px;
 }
 
