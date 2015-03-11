@@ -68,6 +68,13 @@ header {
   padding: 15px 20px;
   border-bottom: 1px solid #B2D2E1;
 }
+
+logo {
+  font-family: 'Oleo Script', serif;
+  text-align: center; 
+  font-size: 42px;    
+}
+
 header h1 {
   margin: 0;
   padding: 0;
