@@ -116,6 +116,11 @@ header p.view {
 header p.view a {
   color: #06c;
 }
+
+header h2.view a {
+  color: #06c;
+}
+
 header p.view small {
   font-weight: 400;
 }
